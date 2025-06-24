@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body class="body-black">
+    <div class="container-form backgrond-white flex">
+      <h2 class="mb-4 fontGrande text-center title">Cadastro de Usuários</h2>
+      <form class="flex-left">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" class="form-control" id="nome" />
+        </div>
+
+        <div class="form-group">
+          <label for="usuario">Usuário:</label>
+          <input type="text" class="form-control" id="usuario" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+
+        <div class="form-group">
+          <label for="senha">Senha:</label>
+          <input type="password" class="form-control" id="senha" />
+        </div>
+
+        <div class="form-group">
+          <label for="endereco">Endereço:</label>
+          <input type="text" class="form-control" id="endereco" />
+        </div>
+
+        <div class="form-group">
+          <label for="cidade">Cidade:</label>
+          <input type="text" class="form-control" id="cidade" />
+        </div>
+
+        <div class="form-group">
+          <label for="estado">Estado:</label>
+          <select class="form-control" id="estado">
+            <option>São Paulo</option>
+            <option>Minas Gerais</option>
+            <option>Rio de Janeiro</option>
+            <option>Bahia</option>
+            <option>Outros</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Sexo:</label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="sexo"
+              id="masculino"
+              value="Masculino"
+            />
+            <label class="form-check-label" for="masculino">Masculino</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="sexo"
+              id="feminino"
+              value="Feminino"
+            />
+            <label class="form-check-label" for="feminino">Feminino</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Escolha os filmes que você mais gosta:</label><br />
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="acao" />
+            <label class="form-check-label" for="acao">Ação</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="aventura" />
+            <label class="form-check-label" for="aventura">Aventura</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="comedia" />
+            <label class="form-check-label" for="comedia">Comédia</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="suspense" />
+            <label class="form-check-label" for="suspense">Suspense</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="drama" />
+            <label class="form-check-label" for="drama">Drama</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="romance" />
+            <label class="form-check-label" for="romance">Romance</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="terror" />
+            <label class="form-check-label" for="terror">Terror</label>
+          </div>
+        </div>
+      </form>
+      <div class="form-group text-center">
+        <button type="reset" class="botao">Cancelar</button>
+        <button type="reset" class="botao">Limpar</button>
+        <button type="submit" class="botao">Cadastrar</button>
+      </div>
+      <div class="text-center">
+        <a class="a-black" href="index.html">Voltar</a>
+      </div>
+    </div>
+  </body>
+</html>
